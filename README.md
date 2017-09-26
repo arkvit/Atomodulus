@@ -13,13 +13,17 @@ This is a interface for plugins that will be integrated into 3rd party applicati
 The plugin registers with The Api Server and exposes the Api Schema for its hosting app to be consumed.
 It also lunches Plugin Modules for the particular app.
 
-For example:
+#### For example:
 - If app A is Microsoft Word
+  - Has an AAIP in the form of a COM PLugin.
+  - This AAIP registers with the server and exposes Api calls available in MS Word 
 - App B is a custom App that has the purpose of finding all images in current loaded document of app A.
-- App A has an AAIP in the form of a COM PLugin.
-- This AAIP registers with the server and exposes Api calls
-- App B requests Api calls to App A through The Api Server.
-- The Api Server makes the request and delivers the response to App B.
+  - App B requests Api calls to App A through The Api Server.
+- The Api Server makes the request to App A and delivers the response to App B.
+
+### AAIP Plugin Modules
+These modules are javascript and html based and act as plugins for the particular app that the AAIP runs.
+This enables developers to develop and interact with 3rd party applications with JavaScript and 
 
 ## (3) Atomodulus Explorer
 This executable handles all UI drawing and desktop management of Atomodulus Apps.
