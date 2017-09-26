@@ -1,6 +1,6 @@
 # Atomodulus
 Cross platform application bridge framework.
-The purpose of this framework is to enable apps to interact with eachother
+The purpose of this framework is to enable apps to interact with each other in an intuitive matter and eliminate limitations of plugin echosystems.
 
 The framework can be seperated into five major components
 
@@ -34,4 +34,4 @@ Atomodulus App can overlay another app or be glued to another native window.
 Act as an universal plugin for other 3rd party applications. As it can use the Atomodulus Api server
 to communicate with an other app and interact with it.
 
-### A framework that aims to bridge the gap between softwares and able rapid development of plugins for applications
+#### A framework that aims to bridge the gap between softwares and able rapid development of plugins for applications
