@@ -27,6 +27,7 @@ This enables developers to develop and interact with 3rd party applications with
 
 ## (3) Atomodulus Explorer
 This executable handles all UI drawing and desktop management of Atomodulus Apps.
+Handles docking of Apps and positioning.
 
 ## (4) Atomodulus Explorer Server
 IPC service that is responsible for all proccess handling.
@@ -34,7 +35,7 @@ Notifies Atomodulus Explorer of all proccess activity and information about proc
 
 ## (5) Atomodulus App
 Is an app that based on web technologies and is managed by the Atomodulus Explorer.
-Atomodulus App can overlay another app or be glued to another native window.
+Atomodulus App can overlay another native window or be glued / docked.
 Act as an universal plugin for other 3rd party applications. As it can use the Atomodulus Api server
 to communicate with an other app and interact with it.
 
