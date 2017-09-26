@@ -5,7 +5,7 @@ Limited support for Android and IOS planned with an Integration App.
 
 The purpose of this framework is to enable apps to interact with each other in an intuitive matter and eliminate limitations of plugin echosystems.
 
-####The framework can be seperated into five major components.
+#### The frameworks five major components.
 
 ## (1) Atomodulus Api Server
 The api server is a IPC enabled service that handles communication between a client and an app that has an AAIP.
