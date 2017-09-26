@@ -10,6 +10,10 @@ The purpose of this framework is to enable apps to interact with each other in a
 ## (1) Atomodulus Api Server
 The api server is a IPC enabled service that handles communication between a client and an app that has an AAIP.
 This server enables IPC enabled apps to interact with apps that have AAIP.
+The server will support both local and remote IPC.
+
+### Api Server Modules
+Are plugins / extensions for the Api Server and provide general Api libraries and native Api calls. 
 
 ## (2) AAIP - Atomodulus App Integration Plugin
 This is a interface for plugins that will be integrated into 3rd party applications.
