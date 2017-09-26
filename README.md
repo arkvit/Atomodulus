@@ -4,7 +4,7 @@ The purpose of this framework is to enable apps to interact with eachother
 
 The framework can be seperated into five major components
 
-# (1) Atomodulus Api Server
+## (1) Atomodulus Api Server
 The api server is a IPC enabled service that handles communication between a client and an app that has an AAIP.
 This server enables IPC enabled apps to interact with apps that have AAIP.
 
