@@ -23,9 +23,11 @@ Given a version number MAJOR.MINOR.PATCH, increment the:
 - **PATCH** version when backwards-compatible bug fixes are made.
 
 Additional labels for pre-release and build metadata will be used as extensions to the MAJOR.MINOR.PATCH format.
-- **PRE-ALPHA** label when the project is in its initial step 
-- **ALPHA** label when features have been partialy added or not at all and is still in testing phase
-- **BETA** label when features have reached freezed state
+- **PRE-ALPHA** label when the project is in its initial step of a new major release without a fixed feature roadmap
+- **ALPHA** label when features have been partialy added or not at all and is still in the testing phase
+- **BETA** label when features have reached a freezed state and 
+- **RC** label when all signifant bugs are ironed out
+- **STABLE** label when all features are stable
 
 
 See more:
