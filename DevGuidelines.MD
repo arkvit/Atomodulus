@@ -14,12 +14,13 @@ https://google.github.io/styleguide/cppguide.html
 This project utilities Semantic Versioning 2.0
 
 Given a version number MAJOR.MINOR.PATCH, increment the:
-- MAJOR version when incompatible API changes are made
-- MINOR version when functionality as added in a backwards-compatible manner
-- PATCH version when backwards-compatible bug fixes are made.
+- **MAJOR** version when incompatible API changes are made
+- **MINOR** version when functionality as added in a backwards-compatible manner
+- **PATCH** version when backwards-compatible bug fixes are made.
+
 Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
-- ALPHA label when features 
-- BETA
+- **ALPHA** label when features 
+- **BETA**
 
 
 See more:
